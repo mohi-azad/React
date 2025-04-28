@@ -1,7 +1,4 @@
-import React from "react";
-import{Link} from "react-router-dom";
-import HoverImage from '../components/HoverImage'; 
-
+import React from "react"; 
 
 class Kontakt extends React.Component {
   render() {
