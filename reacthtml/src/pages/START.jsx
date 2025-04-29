@@ -117,28 +117,27 @@ class START extends React.Component {
         </div>
 
         <div className="slider">
-          <div className="slide-track">
-            <div className="slide"><img src={getImagePath("r1.png")} alt="" /></div>
-            <div className="slide"><img src={getImagePath("r2.png")} alt="" /></div>
-            <div className="slide"><img src="pic/r3.png" alt="" /></div>
-			<div className="slide"><img src="pic/r4.png" alt="" /></div>
-			<div className="slide"><img src="pic/r5.png" alt="" /></div>
-			<div className="slide"><img src="pic/r6.png" alt="" /></div>
-            <div className="slide"><img src="pic/f8.png" alt="" /></div>
-            <div className="slide"><img src="pic/f6.png" alt="" /></div>
-            <div className="slide"><img src="pic/r18.png" alt="" /></div>
+			<div className="slide-track">
+				<div className="slide"><img src={getImagePath("r1.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r2.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r3.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r4.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r5.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r6.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("f8.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("f6.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r18.png")} alt="" /></div>
 
-			<div className="slide"><img src="pic/r1.png" alt="" /></div>
-            <div className="slide"><img src="pic/r2.png" alt="" /></div>
-            <div className="slide"><img src="pic/r3.png" alt="" /></div>
-			<div className="slide"><img src="pic/r4.png" alt="" /></div>
-			<div className="slide"><img src="pic/r5.png" alt="" /></div>
-			<div className="slide"><img src="pic/r6.png" alt="" /></div>
-            <div className="slide"><img src="pic/f8.png" alt="" /></div>
-            <div className="slide"><img src="pic/f6.png" alt="" /></div>
-            <div className="slide"><img src="pic/r18.png" alt="" /></div>
-
-          </div>
+				<div className="slide"><img src={getImagePath("r1.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r2.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r3.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r4.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r5.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r6.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("f8.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("f6.png")} alt="" /></div>
+				<div className="slide"><img src={getImagePath("r18.png")} alt="" /></div>
+			</div>
         </div>
       </div>
     );
