@@ -35,7 +35,7 @@ class Kontakt extends React.Component {
             </p>
           </div>
           <div className="k-image1">
-            <img src="pic/k0.png" alt="" />
+            <img src={'${impoort.meta.env.BASE_URL}pic/k0.png'} alt="" />
           </div>
         </div>
         <div className="k-box2">
