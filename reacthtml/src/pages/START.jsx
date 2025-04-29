@@ -83,13 +83,13 @@ class START extends React.Component {
             </p>
           </div>
           <div className="image-content">
-            <HoverImage src="pic/pr1.png" alt="" className="hover-image" />
+            <HoverImage src={getImagePath("pr1.png")} alt="" className="hover-image" />
           </div>
         </div>
 
         <div className="meet-box">
           <div className="image2-content">
-            <HoverImage src="pic/b4.png" alt="" className="hover-image" />
+            <HoverImage src={getImagePath("b4.png")}alt="" className="hover-image" />
           </div>
           <div className="text2-content">
             <h3>Träffa din fotograf</h3>
