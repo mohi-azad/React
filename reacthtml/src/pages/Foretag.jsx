@@ -1,12 +1,13 @@
 import React from "react";
 import{Link} from "react-router-dom";
+const getImagePath = (filename) => `${import.meta.env.BASE_URL}pic/${filename}`;
 
 class Foretag extends React.Component {
   render() {
     return (
       <div> 
         <div className="hero-image">
-          <img src="pic/f1.png" alt="" className="hover-image" />
+          <img src={getImagePath("f1.png")} alt="" className="hover-image" />
         </div>
 
         <div className="title">
@@ -29,7 +30,7 @@ class Foretag extends React.Component {
           </div>
           <br />
           <div className="f-image1">
-            <img src="pic/f0.png" alt="" className="hover-image" />
+            <img src={getImagePath("f0.png")} alt="" className="hover-image" />
           </div>
 
           <div className="f-bot1">
@@ -43,15 +44,15 @@ class Foretag extends React.Component {
           <br />
           <br />
           <div className="po-galleri">
-            <img src="pic/f3.png" alt="" className="hover-image" />
-            <img src="pic/f4.png" alt="" className="hover-image" />
-            <img src="pic/f5.png" alt="" className="hover-image" />
+            <img src={getImagePath("f3.png")} alt="" className="hover-image" />
+            <img src={getImagePath("f4.png")} alt="" className="hover-image" />
+            <img src={getImagePath("f5.png")} alt="" className="hover-image" />
            
-            <img src="pic/f2.png" alt="" className="hover-image" />
-            <img src="pic/f7.png" alt="" className="hover-image" />
-            <img src="pic/f6.png" alt="" className="hover-image" />
-            <img src="pic/f9.png" alt="" className="hover-image" />
-            <img src="pic/f10.png" alt="" className="hover-image" />
+            <img src={getImagePath("f2.png")} alt="" className="hover-image" />
+            <img src={getImagePath("f7.png")} alt="" className="hover-image" />
+            <img src={getImagePath("f6.png")} alt="" className="hover-image" />
+            <img src={getImagePath("f9.png")} alt="" className="hover-image" />
+            <img src={getImagePath("f10.png")} alt="" className="hover-image" />
           </div>
           <div className="b5-con">
 			<Link to="/portfolio" className="btn5">
@@ -76,11 +77,11 @@ class Foretag extends React.Component {
           </div>
           <br />
           <div className="f-image2">
-            <img src="pic/f12.png" alt="" />
+            <img src={getImagePath("f12.png")} alt="" />
           </div>
 
           <div className="f-image3">
-            <img src="pic/f11.png" alt="" />
+            <img src={getImagePath("f11.png")} alt="" />
           </div>
         </div>
       </div> 

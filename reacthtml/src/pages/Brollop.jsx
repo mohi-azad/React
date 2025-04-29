@@ -73,7 +73,7 @@ class Brollop extends React.Component {
             <Link to="/kontakt" className="btn">Ta kontakt</Link>
           </div>
           <div className="booking-image1">
-            <img src={getImagePath("pic/l1.png")} className="hover-image" alt="" />
+            <img src={getImagePath("l1.png")} className="hover-image" alt="" />
           </div>
           <br />
         </div>

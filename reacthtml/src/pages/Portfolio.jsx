@@ -1,5 +1,7 @@
 import React from 'react';
 import ExpandCollapse from '../components/ExpandCollapse';
+const getImagePath = (filename) => `${import.meta.env.BASE_URL}pic/${filename}`;
+const getVideoPath = (filename) => `${import.meta.env.BASE_URL}pic/${filename}`;
 
 function Portfolio() {
   return (
@@ -25,7 +27,7 @@ function Portfolio() {
           <p>Vad innebär det att vara en “Hybrid”? Jo det innebär att jag både fotar och filmar under er bröllops dag! Filmdelen brukar innebär en enklare highlight film på dagen samt från de foto tillfällen ni önskar.</p>
         </div>
         <div className="p-image1">
-          <img src="pic/blom1.png" alt="" />
+          <img src={getImagePath("blom1.png")} alt="" />
         </div>
       </div>
 
@@ -36,19 +38,19 @@ function Portfolio() {
         <br />
         <br />
         <div className="po-galleri">
-          <img src="pic/p1.png" alt="" className="hover-image" />
-          <img src="pic/p3.png" alt="" className="hover-image" />
-          <img src="pic/p2.png" alt="" className="hover-image" />
-          <img src="pic/p5.png" alt="" className="hover-image" />
-          <img src="pic/p4.png" alt="" className="hover-image" />
-          <img src="pic/p6.png" alt="" className="hover-image" />
+          <img src={getImagePath("p1.png")} alt="" className="hover-image" />
+          <img src={getImagePath("p3.png")} alt="" className="hover-image" />
+          <img src={getImagePath("p2.png")} alt="" className="hover-image" />
+          <img src={getImagePath("p5.png")} alt="" className="hover-image" />
+          <img src={getImagePath("p4.png")} alt="" className="hover-image" />
+          <img src={getImagePath("p6.png")} alt="" className="hover-image" />
         </div>
         <br />
         <ExpandCollapse title="Se mer">
-          <img src="pic/f7.png" alt="" className="hover-image" />
-          <img src="pic/f8.png" alt="" className="hover-image" />
-          <img src="pic/f4.png" alt="" className="hover-image" />
-          <img src="pic/f5.png" alt="" className="hover-image" />
+          <img src={getImagePath("f7.png")} alt="" className="hover-image" />
+          <img src={getImagePath("f8.png")} alt="" className="hover-image" />
+          <img src={getImagePath("f4.png")} alt="" className="hover-image" />
+          <img src={getImagePath("f5.png")} alt="" className="hover-image" />
         </ExpandCollapse>
       </div>
 
@@ -59,11 +61,11 @@ function Portfolio() {
         <br />
         <br />
         <div className="po-galleri">
-          <video src="video/video2.mp4" width="500" controls></video>
+          <video src={getVideoPath("video2.mp4")} width="500" controls></video>
         </div>
         <br />
         <ExpandCollapse title="Se mer">
-          <video src="video/v2.mp4" width="500" controls></video>
+          <video src={getVideoPath("v2.mp4")} width="500" controls></video>
         </ExpandCollapse>
       </div>
     </div>
