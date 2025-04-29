@@ -13,11 +13,12 @@ class START extends React.Component {
       promoText: '',
       promoImageSrc: '', 
       promotions: [ 
-        { img: `${import.meta.env.BASE_URL}pic/b1.png`, text: "FÅNGA KÄRLEKEN OCH MINNEN!" },
-        { img: "pic/w1.png", text: "FÅNGA DE BÄSTA BLICKEN I LIVET!" },
-        { img: "pic/w5.png", text: "MAGISKA ÖGONBLICK - ER BRÖLLOPSFOTOGRAF!" },
-        { img: "pic/w6.png", text: "ETT SAGABRÖLLOP - FÅNGAT I TIDLÖSA BILDER!" }
-      ],
+		{ img: getImagePath("b1.png"), text: "FÅNGA KÄRLEKEN OCH MINNEN!" },
+		{ img: getImagePath("w1.png"), text: "FÅNGA DE BÄSTA BLICKEN I LIVET!" },
+		{ img: getImagePath("w5.png"), text: "MAGISKA ÖGONBLICK - ER BRÖLLOPSFOTOGRAF!" },
+		{ img: getImagePath("w6.png"), text: "ETT SAGABRÖLLOP - FÅNGAT I TIDLÖSA BILDER!" }
+	  ],
+	  
     };
   }
 
@@ -65,7 +66,8 @@ class START extends React.Component {
               <br />
               Fånga kärleken och minnen - Tidlösa Bröllopsbilder För Er Stora Dag!
             </h3>
-            <img src="pic/blomma.png" alt="" />
+            <img src={getImagePath("blomma.png")} alt="" />
+
           </div>
           <div className="h-image">
             <HoverImage src="pic/g1.png" alt="" className="hover-image" />
