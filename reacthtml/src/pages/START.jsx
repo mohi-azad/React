@@ -65,7 +65,7 @@ class START extends React.Component {
               <br />
               Fånga kärleken och minnen - Tidlösa Bröllopsbilder För Er Stora Dag!
             </h3>
-			<img src={getImagePath("k1.png")} alt="" />
+			<img src={getImagePath("blomma.png")} alt="" />
 			</div>
           <div className="h-image">
 			<HoverImage src={getImagePath("g1.png")} alt="" className="hover-image" />
