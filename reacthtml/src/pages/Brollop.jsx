@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+const getImagePath = (filename) => `${import.meta.env.BASE_URL}pic/${filename}`;
+
 
 class Brollop extends React.Component {
   constructor(props) {
@@ -71,7 +73,7 @@ class Brollop extends React.Component {
             <Link to="/kontakt" className="btn">Ta kontakt</Link>
           </div>
           <div className="booking-image1">
-            <img src="pic/l1.png" className="hover-image" alt="" />
+            <img src={getImagePath("pic/l1.png")} className="hover-image" alt="" />
           </div>
           <br />
         </div>
