@@ -1,7 +1,7 @@
 import React from 'react';
 import ExpandCollapse from '../components/ExpandCollapse';
 const getImagePath = (filename) => `${import.meta.env.BASE_URL}pic/${filename}`;
-const getVideoPath = (filename) => `${import.meta.env.BASE_URL}pic/${filename}`;
+const getVideoPath = (filename) => `${import.meta.env.BASE_URL}video/${filename}`;
 
 function Portfolio() {
   return (
