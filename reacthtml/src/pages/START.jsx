@@ -11,7 +11,7 @@ class START extends React.Component {
       promoText: '',
       promoImageSrc: '', 
       promotions: [ 
-        { img: "pic/b1.png", text: "FÅNGA KÄRLEKEN OCH MINNEN!" },
+        { img: `${import.meta.env.BASE_URL}pic/b1.png`, text: "FÅNGA KÄRLEKEN OCH MINNEN!" },
         { img: "pic/w1.png", text: "FÅNGA DE BÄSTA BLICKEN I LIVET!" },
         { img: "pic/w5.png", text: "MAGISKA ÖGONBLICK - ER BRÖLLOPSFOTOGRAF!" },
         { img: "pic/w6.png", text: "ETT SAGABRÖLLOP - FÅNGAT I TIDLÖSA BILDER!" }
