@@ -68,7 +68,7 @@ class Kontakt extends React.Component {
             </form>
           </div>
           <div className="k-image2">
-            <img src="pic/k1.png" alt="" />
+		  <img src={`${import.meta.env.BASE_URL}pic/k1.png`} alt="" />
           </div>
         </div>
       </>
