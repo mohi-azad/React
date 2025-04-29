@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Popup from "../components/Popup"; 
 import HoverImage from '../components/HoverImage';
-
 const getImagePath = (filename) => `${import.meta.env.BASE_URL}pic/${filename}`;
+
 
 class START extends React.Component {
   constructor(props) {
@@ -18,7 +18,6 @@ class START extends React.Component {
 		{ img: getImagePath("w5.png"), text: "MAGISKA ÖGONBLICK - ER BRÖLLOPSFOTOGRAF!" },
 		{ img: getImagePath("w6.png"), text: "ETT SAGABRÖLLOP - FÅNGAT I TIDLÖSA BILDER!" }
 	  ],
-	  
     };
   }
 
@@ -66,8 +65,7 @@ class START extends React.Component {
               <br />
               Fånga kärleken och minnen - Tidlösa Bröllopsbilder För Er Stora Dag!
             </h3>
-            <img src={getImagePath("blomma.png")} alt="" />
-
+            <img src="pic/blomma.png" alt="" />
           </div>
           <div className="h-image">
             <HoverImage src="pic/g1.png" alt="" className="hover-image" />
