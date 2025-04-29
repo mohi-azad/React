@@ -7,7 +7,7 @@ const Popup = ({ show, onClose }) => {
   return (
     <div className="popup-overlay">
       <div className="popup-box">
-		<img src="/pic/hello.png" alt="Hello" />
+		<img src={`${import.meta.env.BASE_URL}pic/hello.png`} alt="Hello" />
 		<h1>Hello, JavaScript!</h1>
 		<p>Click the button below to go back.</p>
         <button onClick={onClose}>Stäng</button>
