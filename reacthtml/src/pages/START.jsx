@@ -65,7 +65,7 @@ class START extends React.Component {
               <br />
               Fånga kärleken och minnen - Tidlösa Bröllopsbilder För Er Stora Dag!
             </h3>
-			<img src={getImagePath("blomma.png")} alt="" />
+			<img src={getImagePath("k1.png")} alt="" />
 			</div>
           <div className="h-image">
 			<HoverImage src={getImagePath("g1.png")} alt="" className="hover-image" />
@@ -118,8 +118,8 @@ class START extends React.Component {
 
         <div className="slider">
           <div className="slide-track">
-            <div className="slide"><img src="pic/r1.png" alt="" /></div>
-            <div className="slide"><img src="pic/r2.png" alt="" /></div>
+            <div className="slide"><img src={getImagePath("r1.png")} alt="" /></div>
+            <div className="slide"><img src={getImagePath("r2.png")} alt="" /></div>
             <div className="slide"><img src="pic/r3.png" alt="" /></div>
 			<div className="slide"><img src="pic/r4.png" alt="" /></div>
 			<div className="slide"><img src="pic/r5.png" alt="" /></div>
